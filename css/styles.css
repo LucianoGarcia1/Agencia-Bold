@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+/************************** HEADER **************************/
+
+.main{
+    width: 100%;
+    height: 700px;
+}
+
+header{
+    background-color: #255aff;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding: 0px 0 100px 0;
+    border-bottom-right-radius: 10000%;
+    border-bottom-left-radius: 10000%;
+}
+
+header .menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #255aff;
+    position: fixed;
+    height: 100px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2.5em;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#menu a:hover{
+    border-bottom: 3px solid #FFDD33;
+}
+
+#menu .contact-menu{
+    background-color: #0F3FD3;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#menu .contact-menu:hover{
+    border: none;
+    background-color: /*#173caa*/ #FFDD33;
+    transition: all 0.30s;
+}
+
+i{
+    font-size: 3em;
+    color: white;
+}
+
+#btn-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.mockup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    color: white;
+}
+
+.mockup h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.mockup p{
+    font-size: 1.2em;
+    margin-bottom:30px;
+}
+
+.mockup img{
+    max-width: 60%;
+    margin-top: 10px;
+}
+/******************** FIM HEADER *******************/
+
+
+/************************** IMAGES **************************/
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 90px 0px 0px 0px;
+}
+
+/******************** FIM IMAGES *******************/
+
+
+/************************** PORQUE NÓS **************************/
+
+.porque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 700px;
+    background-color: #FBFCFE;
+}
+
+.porque h2{
+    font-size: 2.7em;
+    margin-bottom: 5px;
+}
+
+.porque p{
+    color: #7E92AC;
+    width: 100%;
+    text-align: center;
+}
+
+.box-inline{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    gap: 0.7em;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.box-pq{
+    padding: 45px 30px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 17px 5px rgba(60,60,60,0.4); 
+    box-shadow: 0px 0px 15px 2px rgba(60,60,60,0.3);
+}
+
+.box-pq h3{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight:600;
+}
+
+.box-pq p{
+    max-width: 320px;
+    font-size: 0.9em;
+    color: #7E92AC;
+}
+
+
+/******************** FIM PORQUE NÓS *******************/
+
+
+
+
+/************************** PROJETO **************************/
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/BANNER\ IMG.svg);
+    width: 100%;
+    min-height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projeto h2{
+    font-size: 2.7em;
+    font-weight: 300;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.projeto p{
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projeto a{
+    color: #0F3FD3;
+    background-color: #FFDD33;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/******************** FIM PROJETO ********************/
+
+/************************** beneficios **************************/
+
+.beneficios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 700px;
+    gap: 2em;
+    padding: 100px 0 0px 0;
+}
+
+.rigth{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.end{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rigth img{
+    width:  100%;
+}
+
+.beneficios h2{
+    width: 100%;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.beneficios a{
+    color: #FFFFFF;
+    background-color: #0F3FD3;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.check-list{
+    align-items: center;
+    width: 106%;
+    display: flex;
+}
+
+.check-list p{
+    max-width: 350px;
+    font-size: 0.9em;
+    color: #7E92AC;
+}
+
+.contact-us{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+/******************** FIM PROJETO ********************/
+
+
+.depoimentos{
+    width: 100%;
+    min-height: 600px;
+    padding: 50px 0px;
+    background-color: #FBFCFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.depoimentos h2{
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.slide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.box-slide{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 28%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 17px 5px rgba(60,60,60,0.4); 
+    box-shadow: 0px 0px 15px 2px rgba(60,60,60,0.3);
+}
+
+.box-slide p{
+    color: #7E92AC;
+    max-width: 800px;
+    width: 90%;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+.box-slide h4{
+    color: #7E92AC;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.box-slide h3{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+
+.contato{
+    width: 100%;
+    min-height: 500px;
+    padding: 100px 0;
+}
+
+.contato h2{
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    min-height: 420px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    width: 37%;
+    margin-bottom: 25px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    background-color: #FCFDFF;
+    outline: none;
+    padding-left: 40px;
+}
+
+textarea{
+    resize: none;
+    width: 37%;
+    margin-bottom: 25px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    background-color: #FCFDFF;
+    outline: none;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+input::placeholder{
+    color: #7E92AC;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+textarea::placeholder{
+    color: #7E92AC;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+form button{
+    width: 37%;
+    background-color: #255AFF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #255AFF;
+    min-height: 100px;
+}
+
+.menu-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#sub-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2.5em;
+}
+
+#sub-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#sub-menu a:hover{
+    border-bottom: 3px solid #FFDD33;
+}
+
+#sub-menu .contact-menu{
+    background-color: #0F3FD3;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#sub-menu .contact-menu:hover{
+    border: none;
+    background-color: /*#173caa*/ #FFDD33;
+    transition: all 0.30s;
+}
+/******************** MEDIAS QUERIES *******************/
+
+@media screen and (max-width: 1173px){
+    .porque{
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    #sub-menu{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .menu-footer{
+        flex-direction: column;
+        gap: 2em;
+        padding: 50px 0;
+    }
+
+    textarea{
+        width: 85%;
+    }
+
+    form button{
+        width: 85%;
+    }
+
+    input{
+        width: 85%;
+    }
+
+    .box-slide{
+        max-width: 70%;
+        width: 100%;
+    }
+    .beneficios{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+
+    .rigth{
+        display: flex;
+        min-width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .rigth img{
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .end{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .check-list{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .check-list img{
+        margin: -20px;
+    }
+
+    .left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .beneficios h2{
+        text-align: center;
+    }
+
+    .contact-us{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #menu{
+        gap: 0;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        background-color: black;
+        top: 100px;
+        right: 0;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        text-align: center;
+    }
+
+    #nav.active #menu{
+        visibility: visible;
+        padding: 30px 0px;
+        height: 210px;
+        text-align: center;
+    }
+    
+    #menu .hb{
+        display: block;
+        border-bottom: 2px solid rgba(0, 0, 0, .04);
+        padding: 15px;
+        color: white;    
+    }
+
+    #menu .hb:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .contact-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .beneficios a{
+        min-width: 50%;
+        min-height: 50px;
+    }
+
+    .projeto a{
+        min-width: 50%;
+        min-height: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px){
+
+    .box-slide{
+        max-width: 90%;
+        width: 100%;
+    }
+    .box-pq{
+        max-width: 100%;
+        width: 70%;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-pq h3{
+        width: 100%;
+        text-align: center;
+    }
+}
